@@ -1,0 +1,26 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 900px; 
+    max-height: 80vw;
+    height: 100%;
+}
+
+.brandingContainer {
+    position: relative;
+    background-image: url("./pexels-valeria-boltneva-1872904.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+}
