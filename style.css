@@ -1,10 +1,25 @@
+html {
+    font-size: 14px;
+}
+
 body {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 form {
     width: 100%;
     height: 100%;
+    max-height: 80vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background: rgba(60, 60, 60, 0.5);
 }
 
 .wrapper {
@@ -12,15 +27,49 @@ form {
     flex-direction: row;
     width: 100%;
     max-width: 900px; 
-    max-height: 80vw;
+    max-height: 80vh;
     height: 100%;
 }
 
 .brandingContainer {
     position: relative;
     background-image: url("./pexels-valeria-boltneva-1872904.jpeg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
+    height: 100%;
+}
+
+.logoBackground {
+    background: rgba(60, 60, 60, 0.5);
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBackground > p {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.25rem;
+    margin-left: 2%;
+}
+
+a:visited {
+    color: yellow;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.form {
+    width: 60%;
+    background-color: gray;
     height: 100%;
 }
