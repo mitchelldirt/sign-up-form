@@ -6,6 +6,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background-color: rgb(40, 40, 40);
 }
 form {
     width: 100%;
@@ -20,6 +21,22 @@ footer {
     width: 100%;
     color: white;
     background: rgba(60, 60, 60, 0.5);
+}
+
+cite {
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    font-size: 1.5rem;
+}
+
+q {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
 }
 
 .wrapper {
@@ -70,6 +87,15 @@ a:visited {
 
 .form {
     width: 60%;
-    background-color: gray;
+    background-color: white;
     height: 100%;
+}
+
+.quote {
+    width: 80%;
+    height: 22.5%;
+    background: rgba(225, 225, 225, 0.5);
+    position: relative;
+    padding: 5% 10%;
+    
 }
